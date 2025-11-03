@@ -1,0 +1,27 @@
+h1{
+    margin-left: 90vh;
+    margin-top: 100px;
+    color: #636060;
+    font-size: 40px;
+}
+form {
+    width: 400px;
+    height: 270px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color:#e7e0e0;
+    box-shadow: 0 4px 8px #636060;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10vh;
+    margin-top: 90px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+    color: #636060;
+}
+form > div {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
