@@ -1,25 +1,28 @@
 <nav>
     <ul>
+                 <li >
+            <a (click)="gotologin()">
+                 login
+            </a>
+        </li>
+                 <li>
+            <a (click)="gotolibrary()">
+                library
+            </a>
+        </li>
+                <li>
+            <a (click)="gotosearch()">
+                search
+            </a>
+        </li>
         <li >
             <a (click)="gotohome()">
                 home
             </a>
         </li>
-        <li>
-            <a (click)="gotosearch()">
-                search
-            </a>
-        </li>
-         <li>
-            <a (click)="gotolibrary()">
-                library
-            </a>
-        </li>
-         <li >
-            <a (click)="gotologin()">
-                 user account
-            </a>
-        </li>
+
+
+
     </ul>
     <router-outlet></router-outlet>
 </nav> 
